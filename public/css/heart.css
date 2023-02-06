@@ -1,0 +1,23 @@
+.conteudo {
+  position: relative;
+}
+
+.heart {
+  color: #fff;
+  font-size: 128px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation-name: s2;
+  animation-duration: 0.3s;
+}
+
+@keyframes s2 {
+    from {
+        transform: translate(-50%, -50%) scale(0.2);
+    }
+    to {
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
